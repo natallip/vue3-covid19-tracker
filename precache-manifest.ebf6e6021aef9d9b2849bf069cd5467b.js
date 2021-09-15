@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "062317824f4c9213afc3",
+    "revision": "aede3601589bc44d25c3",
     "url": "/vue3-covid19-tracker/css/app.1fe3e471.css"
   },
   {
@@ -8,19 +8,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue3-covid19-tracker/img/hourglass.549947b6.gif"
   },
   {
-    "revision": "88d9cbcc7267c9843b7ecb6b65bfae4e",
+    "revision": "615ca16705c1b330656d89b4c1d81f69",
     "url": "/vue3-covid19-tracker/index.html"
   },
   {
-    "revision": "062317824f4c9213afc3",
-    "url": "/vue3-covid19-tracker/js/app.9d4760ce.js"
+    "revision": "aede3601589bc44d25c3",
+    "url": "/vue3-covid19-tracker/js/app.1e89e1b3.js"
   },
   {
-    "revision": "6095e7747424405c26dd",
-    "url": "/vue3-covid19-tracker/js/chunk-vendors.ef77effb.js"
+    "revision": "9ba075811998ac2323d3",
+    "url": "/vue3-covid19-tracker/js/chunk-vendors.58bc314c.js"
   },
   {
-    "revision": "66f29d04bcde877b965758da3fd25efc",
+    "revision": "d3815ced8d7073d24ac96d5aff1fc8cb",
     "url": "/vue3-covid19-tracker/manifest.json"
   },
   {

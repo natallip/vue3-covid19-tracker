@@ -1,3 +1,5 @@
+importScripts("/vue3-covid19-tracker/precache-manifest.ebf6e6021aef9d9b2849bf069cd5467b.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+
 /**
  * Welcome to your Workbox-powered service worker!
  *
@@ -10,10 +12,6 @@
  * and re-run your build process.
  * See https://goo.gl/2aRDsh
  */
-import { registerRoute } from 'workbox-routing';
-import { NetworkFirst } from 'workbox-strategies';
-
-importScripts("/vue3-covid19-tracker/precache-manifest.ebf6e6021aef9d9b2849bf069cd5467b.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({prefix: "vue3-covid-tracker"});
 
@@ -23,10 +21,20 @@ self.addEventListener('message', (event) => {
   }
 });
 
-registerRoute(
-  new RegExp('https://api.covid19api.com/summary'),
-  new NetworkFirst({
-    cacheName: 'api',
+workbox.setConfig({
+  debug: false,
+});
+
+workbox.routing.registerRoute(
+  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: 'images',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 60,
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+      }),
+    ],
   }),
 );
 
@@ -37,3 +45,4 @@ registerRoute(
  */
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+

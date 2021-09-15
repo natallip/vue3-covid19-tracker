@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue3-covid19-tracker/js/chunk-vendors.ef77effb.js"
   },
   {
-    "revision": "e8deb4846921fb9bd73507fb279e52bb",
+    "revision": "7718c9a9cf0a2607af07d1a180171842",
     "url": "/vue3-covid19-tracker/manifest.json"
   },
   {

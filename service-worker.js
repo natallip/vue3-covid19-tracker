@@ -21,10 +21,6 @@ self.addEventListener('message', (event) => {
   }
 });
 
-workbox.setConfig({
-  debug: false,
-});
-
 workbox.routing.registerRoute(
   /\.(?:png|gif|jpg|jpeg|svg)$/,
   workbox.strategies.staleWhileRevalidate({

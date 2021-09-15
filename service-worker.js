@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue3-covid19-tracker/precache-manifest.ee1f55cb1e83ffb2ac44dc38c28ee5d9.js"
+  "/vue3-covid19-tracker/precache-manifest.ee7cd096dc678b7e3252e0410019e53f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue3-covid-tracker"});

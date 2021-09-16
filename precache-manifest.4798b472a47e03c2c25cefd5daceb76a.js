@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aede3601589bc44d25c3",
+    "revision": "025bb6bf1c788bdf35cd",
     "url": "/vue3-covid19-tracker/css/app.1fe3e471.css"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue3-covid19-tracker/img/hourglass.549947b6.gif"
   },
   {
-    "revision": "615ca16705c1b330656d89b4c1d81f69",
+    "revision": "a00326b8761eb703d93a2ea39f461aa4",
     "url": "/vue3-covid19-tracker/index.html"
   },
   {
-    "revision": "aede3601589bc44d25c3",
-    "url": "/vue3-covid19-tracker/js/app.1e89e1b3.js"
+    "revision": "025bb6bf1c788bdf35cd",
+    "url": "/vue3-covid19-tracker/js/app.b0c88ed6.js"
   },
   {
     "revision": "9ba075811998ac2323d3",
